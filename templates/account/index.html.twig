@@ -6,4 +6,6 @@
   <h1>Mon Compte</h1>
   Bienvenue {{ app.user.firstname }} dans votre espace personnel. <br>
   C'est ici que vous allez pouvoir gérer toutes vos informations
+  <hr>
+  - <a href="{{ path('account_password')}}"> Modifier mon mot de passe</a>
 {% endblock %}
