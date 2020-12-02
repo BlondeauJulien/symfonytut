@@ -14,6 +14,7 @@
 		<!-- Bootstrap core CSS -->
 		<link href={{ asset('assets/css/bootstrap.min.css') }} rel="stylesheet">
 		<link href={{ asset('assets/css/boutiquefrancaise.css') }} rel="stylesheet">
+    <link href={{ asset('assets/css/carousel.css')}} rel="stylesheet">
 
 		<style>
 			.bd-placeholder-img {
@@ -32,7 +33,6 @@
 			}
 		</style>
 		<!-- Custom styles for this template -->
-		<link href={{ asset('assets/css/carousel.css')}} rel="stylesheet">
 	</head>
 	<body>
 		<header>
@@ -44,7 +44,7 @@
 				<div class="collapse navbar-collapse" id="navbarCollapse">
 					<ul class="navbar-nav mr-auto">
 						<li class="nav-item active">
-							<a class="nav-link" href="#">Nos produits</a>
+							<a class="nav-link" href={{ path('products') }}>Nos produits</a>
 						</li>
             <li class="nav-item active">
 							<a class="nav-link" href="#">Qui sommes-nous?</a>
